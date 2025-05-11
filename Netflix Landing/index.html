@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth scrollbar-hide">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Landing Page</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body class="bg-black">
+    <!-- hero start -->
+    <section>
+      <div class="container relative">
+        <div class="absolute z-[9999]">
+          <header
+            class="flex w-full items-center bg-gradient-to-b from-gray-950 to-transparent px-12 py-1 text-white"
+          >
+            <a href="#">
+              <img
+                src="img/netflix logo.png"
+                class="mr-8 w-[7rem]"
+                alt="Logo Netflix"
+              />
+            </a>
+            <nav class="">
+              <ul class="flex gap-4">
+                <li>
+                  <a id="nav-link" class="transition duration-300 hover:text-gray-400 text-gray-400"  href=""
+                    >Beranda</a
+                  >
+                </li>
+                <li>
+                  <a id="nav-link" class="transition duration-300 hover:text-gray-400" href=""
+                    >Acara TV</a
+                  >
+                </li>
+                <li>
+                  <a id="nav-link" class="transition duration-300 hover:text-gray-400" href=""
+                    >Flim</a
+                  >
+                </li>
+                <li>
+                  <a id="nav-link" class="transition duration-300 hover:text-gray-400" href=""
+                    >Baru&Populer</a
+                  >
+                </li>
+                <li>
+                  <a id="nav-link" class="transition duration-300 hover:text-gray-400" href=""
+                    >Daftar Saya</a
+                  >
+                </li>
+                <li>
+                  <a id="nav-link" class="transition duration-300 hover:text-gray-400" href=""
+                    >Telurusi Menurut Bahasa</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <input
+              type="search"
+              id="search"
+              placeholder="Judul, orang, genre"
+              class="ml-[350px] mr-1.5 hidden rounded-md border border-white bg-black p-1 font-semibold"
+            />
+            <div class="ml-[35rem] flex items-center gap-4" id="div-atas">
+              <label for="search" class="">
+                <img
+                  id="logo-search"
+                  src="img/search-svgrepo-com.svg"
+                  alt="search icon"
+                  class="w-7 cursor-pointer text-white"
+                />
+              </label>
+              <a href="" class="font-bold">Anak</a>
+              <a href="">
+                <div
+                  class="flex h-9 w-9 items-center justify-center rounded-md bg-red-400"
+                >
+                  😀
+                </div>
+              </a>
+            </div>
+          </header>
+          <div class="w-[40%] px-14 pt-[250px] text-white ">
+            <h2 class="text-3xl font-bold">Formula 1 : Drive To Survive</h2>
+            <p class="mb-6 mt-4 text-justify text-lg font-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              nihil qui nulla optio, exercitationem ducimus? Accusantium quidem
+              quasi tenetur iste Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Temporibus, ea?.
+            </p>
+            <a
+              class="rounded-[5px] bg-white px-12 py-2.5 text-lg font-bold text-black transition duration-200 hover:opacity-70"
+              href=""
+              >Putar</a
+            >
+            <a
+              class="ml-1 rounded-[5px] bg-gray-600 bg-opacity-70 px-12 py-2.5 text-lg font-bold text-white transition duration-200 hover:opacity-70"
+              href=""
+              >Selengkapnya</a
+            >
+          </div>
+        </div>
+        <div
+          id="pilihan-absolute"
+          class="absolute mt-[670px] bg-gradient-to-t from-black to-transparent px-14"
+        >
+          <div class="container">
+            <h2 class="my-4 text-xl font-bold text-white">
+              Acara TV Komedi Romantis
+            </h2>
+            <div class="flex gap-2">
+              <img class="w-60" src="img/f1.jpeg" alt="" />
+              <img class="w-60" src="img/f2.jpeg" alt="" />
+              <img class="w-60" src="img/f3.jpeg" alt="" />
+              <img class="w-60" src="img/f4.jpeg" alt="" />
+              <img class="w-60" src="img/f5.jpeg" alt="" />
+              <img class="w-60" src="img/f6.jpeg" alt="" />
+              <img class="w-60" src="img/f7.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- <img class="w-full" src="img/thumbnail 2.jpeg" alt="" /> -->
+        <video src="mp4/formula 1 trailer.mp4" autoplay loop muted></video>
+      </div>
+    </section>
+    <!-- hero end -->
+    <!-- pilihan section start -->
+    <section class="my-5">
+      <div id="pilihan 1" class="px-14">
+        <div class="container">
+          <h2 class="my-4 text-xl font-bold text-white">Flim Pilihan Anda</h2>
+          <div class="flex gap-2">
+            <img class="w-60" src="img/f8.jpeg" alt="" />
+            <img class="w-60" src="img/f9.jpeg" alt="" />
+            <img class="w-60" src="img/f10.jpeg" alt="" />
+            <img class="w-60" src="img/f11.jpeg" alt="" />
+            <img class="w-60" src="img/f12.jpeg" alt="" />
+            <img class="w-60" src="img/f13.jpeg" alt="" />
+            <img class="w-60" src="img/f14.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="pilihan 2" class="px-14">
+        <div class="container">
+          <h2 class="my-4 text-xl font-bold text-white">Acara TV Korea</h2>
+          <div class="flex gap-2">
+            <img class="w-60" src="img/f15.jpeg" alt="" />
+            <img class="w-60" src="img/f16.jpeg" alt="" />
+            <img class="w-60" src="img/f17.jpeg" alt="" />
+            <img class="w-60" src="img/f18.jpeg" alt="" />
+            <img class="w-60" src="img/f19.jpeg" alt="" />
+            <img class="w-60" src="img/f20.jpeg" alt="" />
+            <img class="w-60" src="img/f21.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="pilihan 3" class="px-14">
+        <div class="container">
+          <h2 class="my-4 text-xl font-bold text-white">Acara TV Drama</h2>
+          <div class="flex gap-2">
+            <img class="w-60" src="img/f21.jpeg" alt="" />
+            <img class="w-60" src="img/f22.jpeg" alt="" />
+            <img class="w-60" src="img/f7.jpeg" alt="" />
+            <img class="w-60" src="img/f14.jpeg" alt="" />
+            <img class="w-60" src="img/f2.jpeg" alt="" />
+            <img class="w-60" src="img/f3.jpeg" alt="" />
+            <img class="w-60" src="img/f10.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="pilihan 3" class="px-14">
+        <div class="container">
+          <h2 class="my-4 text-xl font-bold text-white">Acara TV Populer</h2>
+          <div class="flex gap-2">
+            <img class="w-60" src="img/f20.jpeg" alt="" />
+            <img class="w-60" src="img/f12.jpeg" alt="" />
+            <img class="w-60" src="img/f1.jpeg" alt="" />
+            <img class="w-60" src="img/f8.jpeg" alt="" />
+            <img class="w-60" src="img/f14.jpeg" alt="" />
+            <img class="w-60" src="img/f11.jpeg" alt="" />
+            <img class="w-60" src="img/f10.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="pilihan 3" class="px-14">
+        <div class="container">
+          <h2 class="my-4 text-xl font-bold text-white">Acara TV Teratas</h2>
+          <div class="flex gap-2">
+            <img class="w-60" src="img/f9.jpeg" alt="" />
+            <img class="w-60" src="img/f19.jpeg" alt="" />
+            <img class="w-60" src="img/f16.jpeg" alt="" />
+            <img class="w-60" src="img/f14.jpeg" alt="" />
+            <img class="w-60" src="img/f12.jpeg" alt="" />
+            <img class="w-60" src="img/f4.jpeg" alt="" />
+            <img class="w-60" src="img/f8.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pilihan section end -->
+    <script src="script.js"></script>
+  </body>
+</html>
